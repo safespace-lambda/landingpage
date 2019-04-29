@@ -1782,6 +1782,7 @@ input, select, textarea {
 			border-bottom: solid 2px #fff;
 			display: inline-block;
 			padding-bottom: 1em;
+
 			position: relative;
 		}
 
@@ -2037,6 +2038,7 @@ input, select, textarea {
 			line-height: 3em;
 			text-align: center;
 			width: calc(3em + 2px);
+			
 		}
 
 			.icon.major:before {
@@ -2046,12 +2048,14 @@ input, select, textarea {
 				transform: rotate(45deg);
 				display: inline-block;
 				font-size: 1.5em;
+				
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.icon.major {
 					font-size: 1em;
+					
 				}
 
 			}
@@ -2061,7 +2065,7 @@ input, select, textarea {
 		}
 
 		.icon.style2 {
-			color: #00f0ff;
+			color: #e0bd6b;
 		}
 
 		.icon.style3 {
