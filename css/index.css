@@ -1,3 +1,15 @@
+/* I N D E X   .  L E S S  */
+/* V A R I A B L E S  .  L E S S  */
+/* Shortcuts
+  border-top: 5px solid @sand;
+  border-bottom: 5px solid @sand;
+  border-left: 5px solid @sand;
+  border-right: 5px solid @sand;
+*/
+/* V A R I A B L E S  .  L E S S  */
+/* M I X I N S   .  L E S S  */
+/* M I X I N S   .  L E S S  */
+/* R E S E T  .  L E S S  */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -106,6 +118,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Titillium Web', sans-serif;
 }
 ol,
 ul {
@@ -126,6 +139,8 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* R E S E T  .  L E S S  */
+/* G L O B A L   .  L E S S  */
 * {
   box-sizing: border-box;
 }
@@ -134,14 +149,14 @@ html {
 }
 html,
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
 }
 h1,
 h2,
 h3,
 h4,
 h5 {
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Titillium Web', sans-serif;
 }
 h1 {
   font-size: 4rem;
@@ -174,11 +189,16 @@ img {
     margin: 0 5%;
   }
 }
+/* G L O B A L   .  L E S S  */
+/* N A V I G A T I O N   .  L E S S  */
 .main-navigation {
   width: 100%;
   height: 90px;
-  background: #FFFFFF;
-  border-bottom: 2px dashed #C0C0C0;
+  background: #173a3e;
+  border-top: 5px solid #e0bd6b;
+  border-bottom: 5px solid #e0bd6b;
+  border-left: 5px solid #e0bd6b;
+  border-right: 5px solid #e0bd6b;
   position: fixed;
 }
 .main-navigation .nav-container {
@@ -193,6 +213,9 @@ img {
     justify-content: center;
     padding-top: 10px;
   }
+}
+.main-navigation .nav-container .logo-heading {
+  color: white;
 }
 @media (max-width: 500px) {
   .main-navigation .nav-container .logo-heading {
@@ -212,30 +235,40 @@ img {
 }
 .main-navigation .nav-container .nav a {
   font-size: 1.6rem;
-  color: #212529;
+  color: #ffffff;
   text-decoration: none;
 }
+/* N A V I G A T I O N   .  L E S S  */
+/* F O O T E R   .  L E S S  */
 .footer {
   width: 100%;
-  border-top: 2px dashed #C0C0C0;
-  background: #FFEBCD;
+  border-top: 5px solid #e0bd6b;
+  border-bottom: 5px solid #e0bd6b;
+  border-left: 5px solid #e0bd6b;
+  border-right: 5px solid #e0bd6b;
+  background: #173a3e;
 }
 .footer p {
   text-align: center;
-  color: #212529;
-  font-size: 1.6rem;
+  color: #ffffff;
+  font-size: 2rem;
   padding: 20px;
+  color: white;
 }
+/* F O O T E R   .  L E S S  */
+/* H O M E - P A G E   .  L E S S  */
 .home .intro {
   padding: 90px 0 10px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 5px solid #e0bd6b;
 }
 .home .intro img {
   max-width: 100%;
   height: auto;
+  padding-top: 20px;
 }
 .home .intro h2 {
   margin-top: 20px;
+  text-align: center;
 }
 .home .content-section {
   margin: 30px 0;
@@ -273,7 +306,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 5px solid #e0bd6b;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -307,7 +340,7 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 5px solid #e0bd6b;
   display: flex;
   justify-content: space-between;
 }
@@ -336,7 +369,7 @@ img {
   width: 200px;
   height: 45px;
   background-color: #17A2B8;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
@@ -347,6 +380,8 @@ img {
   }
 }
 .home .content-pick .destination .btn:hover {
-  background: #FFFFFF;
+  background: #ffffff;
   color: #17A2B8;
 }
+/* H O M E - P A G E   .  L E S S  */
+/* I N D E X   .  L E S S  */
