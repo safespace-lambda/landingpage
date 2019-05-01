@@ -167,6 +167,7 @@ h2 {
 }
 h4 {
   font-size: 2.5rem;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 p {
@@ -387,4 +388,4 @@ body {
   background-color: #e6e6e6;
 }
 /* H O M E - P A G E   .  L E S S  */
-/* I N D E X   .  L E S S  */
+/* I N D E X   .  L E S S  *
