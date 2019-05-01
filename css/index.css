@@ -368,8 +368,8 @@ img {
   align-items: center;
   width: 200px;
   height: 45px;
-  background-color: #17A2B8;
-  color: #ffffff;
+  background-color: #173a3e;
+  color: #e0bd6b;
   border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
@@ -380,8 +380,11 @@ img {
   }
 }
 .home .content-pick .destination .btn:hover {
-  background: #ffffff;
-  color: #17A2B8;
+  background: #e0bd6b;
+  color: #173a3e;
+}
+body {
+  background-color: #e6e6e6;
 }
 /* H O M E - P A G E   .  L E S S  */
 /* I N D E X   .  L E S S  */
