@@ -1,15 +1,3 @@
-/* I N D E X   .  L E S S  */
-/* V A R I A B L E S  .  L E S S  */
-/* Shortcuts
-  border-top: 5px solid @sand;
-  border-bottom: 5px solid @sand;
-  border-left: 5px solid @sand;
-  border-right: 5px solid @sand;
-*/
-/* V A R I A B L E S  .  L E S S  */
-/* M I X I N S   .  L E S S  */
-/* M I X I N S   .  L E S S  */
-/* R E S E T  .  L E S S  */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -139,8 +127,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* R E S E T  .  L E S S  */
-/* G L O B A L   .  L E S S  */
 * {
   box-sizing: border-box;
 }
@@ -167,7 +153,6 @@ h2 {
 }
 h4 {
   font-size: 2.5rem;
-  padding-top: 10px;
   padding-bottom: 10px;
 }
 p {
@@ -190,8 +175,6 @@ img {
     margin: 0 5%;
   }
 }
-/* G L O B A L   .  L E S S  */
-/* N A V I G A T I O N   .  L E S S  */
 .main-navigation {
   width: 100%;
   height: 90px;
@@ -239,8 +222,6 @@ img {
   color: #ffffff;
   text-decoration: none;
 }
-/* N A V I G A T I O N   .  L E S S  */
-/* F O O T E R   .  L E S S  */
 .footer {
   width: 100%;
   border-top: 5px solid #e0bd6b;
@@ -256,11 +237,9 @@ img {
   padding: 20px;
   color: white;
 }
-/* F O O T E R   .  L E S S  */
-/* H O M E - P A G E   .  L E S S  */
 .home .intro {
   padding: 90px 0 10px;
-  border-bottom: 5px solid #e0bd6b;
+  border-bottom: 10px solid #e0bd6b;
 }
 .home .intro img {
   max-width: 100%;
@@ -276,6 +255,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-bottom: 10px solid #e0bd6b;
 }
 .home .content-section .text-content {
   width: 48%;
@@ -306,8 +286,7 @@ img {
   }
 }
 .home .inverse-content {
-  padding-bottom: 30px;
-  border-bottom: 5px solid #e0bd6b;
+  border-bottom: 10px solid #e0bd6b;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -340,8 +319,6 @@ img {
   border-radius: 10px;
 }
 .home .content-pick {
-  padding-top: 30px;
-  border-top: 5px solid #e0bd6b;
   display: flex;
   justify-content: space-between;
 }
@@ -371,7 +348,6 @@ img {
   height: 45px;
   background-color: #173a3e;
   color: #e0bd6b;
-  border: 1px solid #C0C0C0;
   cursor: pointer;
   font-size: 1.8rem;
 }
@@ -384,8 +360,49 @@ img {
   background: #e0bd6b;
   color: #173a3e;
 }
+.home .content-pick2 {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .home .content-pick2 {
+    flex-wrap: wrap;
+  }
+}
+.home .content-pick2 .destination2 {
+  width: 30%;
+  margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick2 .destination2 {
+    width: 80%;
+    margin: 0 auto 30px;
+  }
+}
+.home .content-pick2 .destination2 .btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background-color: #173a3e;
+  color: #e0bd6b;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+@media (max-width: 500px) {
+  .home .content-pick2 .destination2 .btn {
+    width: 100%;
+  }
+}
+.home .content-pick2 .destination2 .btn:hover {
+  background: #e0bd6b;
+  color: #173a3e;
+}
 body {
   background-color: #e6e6e6;
 }
-/* H O M E - P A G E   .  L E S S  */
-/* I N D E X   .  L E S S  *
