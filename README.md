@@ -1,8 +1,10 @@
 
-Tip to Set Up Your PreProcessor
+Safe Space is the project assigned by Lambda School. For Build Week 04/29/2019 - 05/03/2019.
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* This repository functions as the Web UI Design space, a landing page for the app
+* To contribute or view this project clone the file and view it in your web browser
+
+Additional Notes For Reference
+
+* To set up your PreProcessor: run the following command `less-watch-compiler less css index.less`
+* The color scheme can be found in the `variables.less` file 
