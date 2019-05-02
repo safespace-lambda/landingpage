@@ -1,13 +1,8 @@
-
-/* H O M E - P A G E   .  L E S S  */
-
-
-
 .home {
 
   .intro {
     padding: 90px 0 10px;
-    border-bottom: 5px solid @sand;
+    border-bottom: 10px solid @sand;
 
     img {
       max-width: 100%;
@@ -26,12 +21,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
-   
-    
+    border-bottom: 10px solid@sand;
+       
     .text-content {
       width: 48%;
       padding-right: 1%;
+      
 
       @media @mobile {
         width: 100%;
@@ -59,8 +54,7 @@
   }
 
   .inverse-content {
-    padding-bottom: 30px;
-    border-bottom: 5px solid @sand;
+    border-bottom: 10px solid @sand;
     
 
     .text-content {
@@ -97,8 +91,6 @@
   }
 
   .content-pick {
-    padding-top: 30px;
-    border-top: 5px solid @sand;
     display: flex;
     justify-content: space-between;
 
@@ -116,16 +108,38 @@
       }
       
       .btn {
-        .button-creator(200px, 45px, @dark-green, @white, 1.8rem);     
+        .button-creator(200px, 45px, @dark-green, @white, 1.8rem);   
+        
       }
     }
   }
-}// home
 
-body {
-  //background-color: #f5f5f5;
-  background-color: #e6e6e6;
+  .content-pick2 {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    @media @mobile {
+      flex-wrap: wrap;
+    }
+
+    .destination2 {
+      width: 30%;
+      margin-bottom: 30px;
+
+      @media @mobile {
+        width: 80%;
+        margin: 0 auto 30px;
+      }
+      
+      .btn {
+        .button-creator(200px, 45px, @dark-green, @white, 1.8rem);   
+        
+      }
+    }
+  }
 }
 
-
-/* H O M E - P A G E   .  L E S S  */
+body {
+  background-color: #e6e6e6;
+}
