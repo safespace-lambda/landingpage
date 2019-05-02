@@ -1,0 +1,39 @@
+
+/* M I X I N S   .  L E S S  */
+
+
+.center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .border-radius(@radius) {
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+  }
+  
+  .button-creator(@width, @height, @bg-color, @font-color, @font-size) {
+    .border-radius(15px);
+    .center;
+    width: @width;
+    height: @height;
+    background-color: @bg-color;
+    color: @sand;
+    border: 1px solid @silver;
+    cursor: pointer;
+    font-size: @font-size;
+  
+    @media @mobile {
+      width: 100%;
+    }
+    
+    &:hover {
+      background: @sand;
+      color: @dark-green;
+    }
+  }
+
+/* M I X I N S   .  L E S S  */
+
